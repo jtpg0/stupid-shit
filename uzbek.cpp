@@ -1,4 +1,7 @@
-#include <stdio.h>
+/*
+  this was kinda meant to be a horror game but the code
+  itself is far, far scarier
+*/
 #include <iostream>
 #include <stdlib.h>
 #include <string>
@@ -10,7 +13,6 @@ int rndom = 0;
 int coadarnd = 0;
 string choice = "";
 string restart = "";
-int hvymtl = rand() % 4 + 1;
 printf("\033c\033[1;36m");
 printf("\033c\033[1;36m                                __ \n");
 printf("                               |\\ \\   __ \n");
@@ -188,17 +190,7 @@ printf("        \\ \\  \\\\ \\ \\  \\\\ \\   \\ \\  \\    \\ \\ \\      \\ \\ \\
 printf("   ______\\_\\  \\\\ \\ \\__\\\\ \\   \\ \\  \\    \\ \\ \\      \\ \\ \\______\\ \\ \\___\\_\\ \\_|\n");
 printf("   \\___________\\\\_\\_______\\   \\_\\__\\    \\_\\_\\      \\_\\_______\\\\_\\_________\\   __\n");
 printf("    \\__________| \\________|    \\___|     \\__|       \\________| \\__________|   \\_\\\n");
-if( hvymtl == 1 ) {
-printf("TOO MUCH ANIMOSITY NOBODY DOES IT BETTER THAN THE ENEMY\n");
-}else if( hvymtl == 2 ){
-printf("DARKNESS IMPRISONING ME ALL THAT I SEE ABSOLUTE HORROR\n");
-}else if( hvymtl == 3 ){
-printf("STEP INSIDE, SEE THE DEVIL IN I\n");
-}else if( hvymtl == 3 ){
-printf("DEMON WLADCA CIEMNOSCI DEMON OKRUTNY BEZ LITOSCI\n");
-}else if( hvymtl == 3 ){
-printf("IM YOUR DREAM MAKE YOU REAL IM YOUR EYES WHEN YOU MUST STEAL IM YOUR PAIN WHEN YOU CANT FEEL SAD BUT TRUE\n");
-}
+
 usleep(1000000);
 printf("\033cwillkommen zu...\n");
 printf("\033[1;32m           01011110  001110  101100   1 0     1  1011010\n");
